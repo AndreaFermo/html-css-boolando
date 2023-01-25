@@ -14,17 +14,26 @@ html {
     border: 5px dashed black;
 }
 
+.debug .topbar {
+    background-color: blue;
+}
 
+.debug main .container {
+    height: 500px;
+    background-color: aqua;
+}
+
+.debug main .container .columns {
+    background-color: yellow;
+}
 
 /*css*/
 
 header {
     background-color: darkorange;
-    height: 100%;
 }
 
 .topbar {
-    background-color: blue;
     max-width: 1170px;
     margin: auto;
     display: flex;
@@ -49,4 +58,17 @@ header {
     color: white;
     width: 20%;
     text-align: end;
+}
+
+/*QUI COMINCIA MAIN*/
+
+.container {
+    max-width: 1170px;
+    margin: 30px auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.columns {
+    width: calc(100% / 3)
 }
