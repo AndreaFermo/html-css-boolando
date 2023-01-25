@@ -18,6 +18,11 @@ html {
 header {
     background-color: rgb(255, 105, 0);
     height: 80px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 5;
 }
 
 .topbar {
@@ -60,6 +65,10 @@ header {
 }
 
 /*REGOLE MAIN*/
+
+main {
+    padding-top: 80px;
+}
 
 .container {
     max-width: 1170px;
