@@ -14,9 +14,6 @@ html {
     border: 5px dashed black;
 }
 
-.debug .topbar {
-    background-color: blue;
-}
 
 .debug main .container {
     height: 500px;
@@ -31,13 +28,19 @@ html {
     background-color: blueviolet;
 }
 
+.debug footer {
+    background-color: green;
+}
+
 /*css*/
 
 header {
-    background-color: darkorange;
+    background-color: rgb(255, 105, 0);
+    height: 80px;
 }
 
 .topbar {
+    height: 100%;
     max-width: 1170px;
     margin: auto;
     display: flex;
@@ -45,9 +48,10 @@ header {
     align-items: center;
 }
 
-.topbar a {
+.topbar .left-col a {
     color: white;
     text-decoration: none;
+    margin-right: 5px;
 }
 
 .left-col {
@@ -58,10 +62,20 @@ header {
     width: 60%;
 }
 
+.logo-col img {
+    display: block;
+    margin: auto;
+    height: 25px;
+}
+
 .right-col {
     color: white;
     width: 20%;
     text-align: end;
+}
+
+.right-col i {
+    padding-left: 5px;
 }
 
 /*REGOLE MAIN*/
@@ -80,9 +94,7 @@ header {
 
 /*REGOLE FOOTER*/
 
-footer{
-    background-color: green;
-}
+
 
 .references {
     display: flex;
