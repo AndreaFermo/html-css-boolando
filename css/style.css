@@ -16,7 +16,6 @@ html {
 
 
 .debug main .container {
-    height: 500px;
     background-color: aqua;
 }
 
@@ -32,6 +31,9 @@ html {
     background-color: green;
 }
 
+.debug .columns img{
+    width: 100%;
+}
 /*css*/
 
 header {
@@ -91,6 +93,26 @@ header {
     width: calc(100% / 3)
 }
 
+.sndimg {
+    display: none;
+}
+
+.product {
+    font-weight: bold;
+}
+
+.discprc {
+    font-weight: bold;
+    color: red;
+}
+
+.realprc {
+    text-decoration: line-through;
+}
+
+span::after {
+    content: "\20AC";
+}
 
 /*REGOLE FOOTER*/
 
