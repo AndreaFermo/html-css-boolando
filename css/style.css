@@ -18,9 +18,7 @@ html {
     background-color: blueviolet;
 }
 
-.debug footer {
-    background-color: green;
-}
+
 
 /*css*/
 
@@ -121,7 +119,7 @@ span::after {
 }
 
 .fstimg:hover {
-    display: none;
+    opacity: 0;
 }
 
 .col .fa-heart {
@@ -158,7 +156,9 @@ span::after {
 
 /*REGOLE FOOTER*/
 
-
+footer {
+    background-color: rgb(26, 26, 26);
+}
 
 .references {
     display: flex;
