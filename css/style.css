@@ -3,3 +3,50 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+html {
+    font-family: sans-serif;
+}
+
+/*debug*/
+
+.debug .tratteggiato {
+    border: 5px dashed black;
+}
+
+
+
+/*css*/
+
+header {
+    background-color: darkorange;
+    height: 100%;
+}
+
+.topbar {
+    background-color: blue;
+    max-width: 1170px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.topbar a {
+    color: white;
+    text-decoration: none;
+}
+
+.left-col {
+    width: 20%;
+}
+
+.logo-col {
+    width: 60%;
+}
+
+.right-col {
+    color: white;
+    width: 20%;
+    text-align: end;
+}
