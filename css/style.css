@@ -10,13 +10,6 @@ html {
 
 /*debug*/
 
-.debug .tratteggiato {
-    border: 5px dashed black;
-}
-
-.debug footer .references {
-    background-color: blueviolet;
-}
 
 
 
@@ -163,7 +156,29 @@ footer {
 .references {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     color: white;
     max-width: 1170px;
     margin: auto;
+    padding: 10px 0px;
+}
+
+.socinfo a {
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.utili {
+    font-size: 12px;
+    padding: 5px 0px;
+}
+
+.findus {
+    text-align: center;
+}
+
+.social i{
+    font-size: 25px;
+    margin: 4px;
 }
