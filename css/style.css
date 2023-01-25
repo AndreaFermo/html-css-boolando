@@ -14,15 +14,6 @@ html {
     border: 5px dashed black;
 }
 
-
-.debug main .container {
-    background-color: aqua;
-}
-
-.debug main .container .columns {
-    background-color: yellow;
-}
-
 .debug footer .references {
     background-color: blueviolet;
 }
@@ -31,9 +22,6 @@ html {
     background-color: green;
 }
 
-.debug .columns img{
-    width: 100%;
-}
 /*css*/
 
 header {
@@ -115,6 +103,11 @@ span::after {
 
 .columns .col {
     position: relative;
+    margin: 15px;
+}
+
+.columns img{
+    width: 100%;
 }
 
 .fstimg {
@@ -138,6 +131,29 @@ span::after {
     right: 0;
     padding: 10px;
     font-size: 25px;
+}
+
+.flags{
+    position: absolute;
+    bottom: 100px;
+    left: 0px;
+}
+
+.flaginfo {
+    color: white;
+    font-weight: bold;
+    display: inline-block;
+    margin-right: 3px;
+    padding: 3px 5px;
+    font-size: 12px;
+}
+
+.backred {
+    background-color: red;
+}
+
+.backgreen {
+    background-color: green;
 }
 
 /*REGOLE FOOTER*/
