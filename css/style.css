@@ -93,11 +93,8 @@ header {
     width: calc(100% / 3)
 }
 
-.sndimg {
-    display: none;
-}
 
-.product {
+.productname {
     font-weight: bold;
 }
 
@@ -112,6 +109,35 @@ header {
 
 span::after {
     content: "\20AC";
+}
+
+/*immagine interattiva*/
+
+.columns .col {
+    position: relative;
+}
+
+.fstimg {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.sndimg {
+    position: static;
+}
+
+.fstimg:hover {
+    display: none;
+}
+
+.col .fa-heart {
+    background-color: white;
+    position: absolute;
+    top: 10px;
+    right: 0;
+    padding: 10px;
+    font-size: 25px;
 }
 
 /*REGOLE FOOTER*/
