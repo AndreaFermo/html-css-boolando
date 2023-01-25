@@ -27,6 +27,10 @@ html {
     background-color: yellow;
 }
 
+.debug footer .references {
+    background-color: blueviolet;
+}
+
 /*css*/
 
 header {
@@ -60,7 +64,7 @@ header {
     text-align: end;
 }
 
-/*QUI COMINCIA MAIN*/
+/*REGOLE MAIN*/
 
 .container {
     max-width: 1170px;
@@ -71,4 +75,19 @@ header {
 
 .columns {
     width: calc(100% / 3)
+}
+
+
+/*REGOLE FOOTER*/
+
+footer{
+    background-color: green;
+}
+
+.references {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    max-width: 1170px;
+    margin: auto;
 }
